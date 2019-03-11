@@ -1,0 +1,211 @@
+* {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+h1, .tagline, button, a.dark-background {
+  color: white;
+}
+
+h1 {
+  font-size: 40pt;
+  line-height: 80%;
+  -webkit-margin-after: 0em;
+}
+
+.tagline {
+  font-size: 20pt;
+  margin-block-start: 16px;
+  margin-block-end: -4px;
+}
+
+.tagline-line-2 {
+  margin-block-start: 13px;
+  margin-block-end: 36px;
+}
+
+.btn-main {
+  background-color: #006697;
+  border: 0.05em solid #006697;
+  letter-spacing: 1px;
+  padding: 7px 10px 9px 10px;
+  font-size: 18pt;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 0.05em solid #017eb8;
+  background-color: #017eb8;
+}
+
+nav {
+  padding-bottom: 100px;
+}
+
+section {
+  background-color: white;
+  padding: 60px 0 20px 0;
+}
+
+h2 {
+  font-size: 30pt;
+  letter-spacing: 1px;
+  color: #006697;
+  margin-block-start: 0;    
+  margin-block-end: 0;
+}
+
+p.about, p.projects {
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+}
+
+p.about {
+  font-size: 18pt;
+  max-width: 590px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 22pt;
+  padding-top: 95px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h3.first-h3 {
+  padding-top: 70px;
+  margin-block-start: 0;
+}
+
+p.projects {
+  font-size: 16pt;
+  max-width: 550px;
+  margin: 0 auto;
+  margin-block-start: 0;
+}
+
+p.problem {
+  padding: 20px 20px 0px 20px;
+  font-style: italic;
+}
+
+p.solution {
+  padding: 20px;
+}
+
+p.technologies {
+  font-size: 14pt;
+  padding: 0px 20px 20px 20px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+span.semi-bold {
+  font-weight: 600;
+}
+
+.btn-projects-div {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.btn-projects {
+  background-color: #666666;
+  border: 0.05em solid #666666;
+  letter-spacing: 1px;
+  padding: 3px 5px 5px 6px;
+  font-size: 16pt;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 20px 10px 0 10px;
+}
+
+.contact-buttons {
+  padding: 20px 20px 50px 20px;
+}
+
+a.dark-background {
+  text-decoration: none;
+}
+
+a.white-background {
+  color: black;
+}
+
+a.white-background:hover {
+  color: gray;
+}
+
+
+/* responsive-related */
+
+@media only screen and (min-width: 600px) {
+  header, nav, h1, .tagline {
+    text-align: left;
+  }
+
+  header {
+    padding-left: 85px;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#363644+0,363644+100&0.8+0,0+67,0+100 */
+  body {
+    background-color: #4193b9; /*
+    linear-gradient(
+      rgba(54,54,68,0.4), 
+      rgba(54,54,68,0.4) 
+    ),
+    url(https://silverbelleconcierge.com/wp-content/uploads/2017/07/virtual_1920x1280.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top right; */
+  } 
+}   
+
+@media only screen and (min-width: 800px) {
+  body {
+    background: -moz-linear-gradient(left, rgba(54,54,68,0.55) 0%, rgba(54,54,68,0.2) 60%, rgba(54,54,68,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(54,54,68,0.55) 0%,rgba(54,54,68,0.2) 60%,rgba(54,54,68,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(54,54,68,0.55) 0%,rgba(54,54,68,0.2) 60%,rgba(54,54,68,0) 100%),
+    url(img/backgroundPhoto.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top right;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  h1 {
+    font-size: 54pt;
+  }
+
+  h2 {
+    font-size: 38pt;
+  }
+
+  .tagline {
+    font-size: 26pt;
+  }
+
+  nav {
+    padding-bottom: 120px;
+  }
+}
